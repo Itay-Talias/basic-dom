@@ -45,3 +45,6 @@ const subHeader = document.createElement("h2");
 subHeader.innerHTML = "Game by: ~Itay Talias~";
 subHeader.setAttribute("class", "sub-header");
 document.body.appendChild(subHeader);
+
+document.addEventListener("keydown", moveDown);
+document.addEventListener("keyup", moveUp);
